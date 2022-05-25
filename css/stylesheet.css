@@ -1,0 +1,78 @@
+
+body {
+    background-image: url("../images/background/keuken-achtergrond.png");
+    background-size: 110%;
+}
+
+#taart img {
+    height: 250px;
+    position: relative;
+    top: 450px;
+    left: 600px;
+}
+#kaarsjes img{
+    height: 100px;
+    position: relative;
+    top: 110px;
+    left: 720px;
+}
+
+#daisies img{
+    height: 75px;
+    position: relative;
+    top: 85px;
+    left: 620px;
+}
+
+#caketype img{
+    height: 190px;
+    position: relative;
+    top: 250px;
+    left: 340px;
+}
+
+
+#topping img{
+    height: 190px;
+    position: relative;
+    top: 200px;
+    left: 700px;
+}
+
+#candles img{
+    height: 190px;
+    position: relative;
+    bottom: 160px;
+    left: 1200px;
+}
+
+#finished img{
+    height: 60px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+#random img{
+    height: 60px;
+    position: absolute;
+    left: 60px;
+    top: 50px;
+}
+
+#confetti {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#confetti img {
+    width: 100vw;
+    height: 100vh;
+}
+
+#confetti.is-hidden {
+    display: none;
+}
